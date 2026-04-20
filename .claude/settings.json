@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s --noproxy '*' 'http://localhost/v1/datasets/91c49b3f-372f-485a-a353-0170998712b4/documents?page=1&limit=5' -H 'Authorization: Bearer dataset-862qkmARRGwSXJ2prF8bMQXc')",
+      "Bash(node -e ':*)",
+      "Bash(curl -s --noproxy '*' 'http://localhost/v1/datasets/91c49b3f-372f-485a-a353-0170998712b4/documents?page=1&limit=10' -H 'Authorization: Bearer dataset-862qkmARRGwSXJ2prF8bMQXc')",
+      "Bash(curl -s --noproxy '*' -X POST http://localhost/v1/datasets/91c49b3f-372f-485a-a353-0170998712b4/documents/create-by-text -H 'Authorization: Bearer dataset-862qkmARRGwSXJ2prF8bMQXc' -H 'Content-Type: application/json' -d '{:*)",
+      "Bash(curl -s --noproxy '*' -X POST http://localhost/v1/datasets/91c49b3f-372f-485a-a353-0170998712b4/document/create_by_text -H 'Authorization: Bearer dataset-862qkmARRGwSXJ2prF8bMQXc' -H 'Content-Type: application/json' -d '{\"name\":\"test\",\"text\":\"hello\",\"indexing_technique\":\"high_quality\",\"process_rule\":{\"mode\":\"automatic\"}}')"
+    ]
+  }
+}
